@@ -1,0 +1,143 @@
+body{
+  text-align:center;
+  letter-spacing:5px;
+  font-size:20px;
+  background:#26A69A;
+  font-family:didact gothic;
+/*   color:orange; */
+}
+.main{
+  box-shadow:-2px 2px 20px 3px teal;
+  width:400px;
+  margin:3% auto;
+  padding:30px;
+  padding-top:5px;
+  border-radius:5px;
+  background:#fff;
+}
+h1{
+  color:white;
+  background:#26A69A;
+  height:80px;
+
+}
+.container{
+  margin:3% auto;
+/*   border:2px solid black; */
+  width:320px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-text:center;
+  margin-bottom:10%;
+}
+.box{
+  width:100px;
+  height:100px;
+  background:#26A69A;
+ 
+  border:2px solid #fff;
+/*   text-align:center; */
+  font-size:30px;
+display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:all 0.5s linear;
+}
+.box:hover{
+  background:#80CBC4;
+}
+.askhooman{
+/*   letter-spacing:3px; */
+  display:flex;
+  justify-content:center;
+  font-size:25px;
+}
+i:hover{
+  color:#26A69A;
+  cursor:pointer;
+}
+.box i:hover{
+  color:white;
+}
+.won{
+  background:#A7FFEB;
+  text-decoration:line-through;
+  color:black;
+  font-size:40px;
+}
+#reset{
+  background:#26A69A;
+  border:none;
+  outline:none;
+  letter-spacing:3px;
+  font-family:didact gothic;
+  font-size:20px;
+  padding:5px;
+  color:white;
+  border-radius:2px;
+  transition:all 0.5s linear;
+}
+#reset:hover{
+  background:#80CBC4;
+  color:black;
+  
+}
+.play{
+  display:flex;
+  justify-content:center;
+}
+.bg{
+  background:#26A69A;
+  margin:0 auto;
+  padding:3px;
+  letter-spacing:1px;
+  color:#fff;
+  transition:all 0.5s linear;
+  border-radius:2px;
+}
+.bg:hover{
+ background:#80CBC4;
+  color:black;
+  cursor:pointer;
+}
+.scores{
+  display:flex;
+  justify-content:space-around;
+}
+a:hover{
+  cursor:pointer;
+  color:white;
+}
+
+
+@media (max-width:500px){
+  .main{
+    width:315px;
+    padding:10px;
+  }
+  h1{
+    width:280px;
+    height:60px;
+    margin:4px auto;
+/*     text-align:center; */
+  }
+  .askhooman{
+    font-size:20px;
+  }
+  .container{
+    margin:3% 0;
+    padding:0;
+    width:320px;
+    
+/*     background:red; */
+  }
+  .box{
+    height:90px;
+    width:90px;
+  }
+  h4{
+    font-size:17px;
+    letter-spacing:1px;
+  }
+}
