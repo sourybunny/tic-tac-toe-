@@ -8,17 +8,19 @@ body{
 }
 .main{
   box-shadow:-2px 2px 20px 3px teal;
-  width:400px;
-  margin:3% auto;
-  padding:30px;
+  width:360px;
+  margin:2% auto;
+  padding:10px;
   padding-top:5px;
   border-radius:5px;
   background:#fff;
+  /* height:auto; */
 }
 h1{
+  margin: 5px auto;
   color:white;
   background:#26A69A;
-  height:80px;
+  height:70px;
 
 }
 .container{
@@ -29,13 +31,13 @@ h1{
   flex-wrap:wrap;
   justify-content:center;
   align-text:center;
-  margin-bottom:10%;
+  /* margin-bottom:10%; */
 }
 .box{
   width:100px;
   height:100px;
   background:#26A69A;
- 
+
   border:2px solid #fff;
 /*   text-align:center; */
   font-size:30px;
@@ -81,7 +83,7 @@ i:hover{
 #reset:hover{
   background:#80CBC4;
   color:black;
-  
+
 }
 .play{
   display:flex;
@@ -113,11 +115,12 @@ a:hover{
 
 @media (max-width:500px){
   .main{
-    width:315px;
-    padding:10px;
+    width:260px;
+    /* padding:5px; */
+    margin:0 auto;
   }
   h1{
-    width:280px;
+    /* width:280px; */
     height:60px;
     margin:4px auto;
 /*     text-align:center; */
@@ -126,18 +129,18 @@ a:hover{
     font-size:20px;
   }
   .container{
-    margin:3% 0;
+    margin:5px auto;
     padding:0;
-    width:320px;
-    
+    width:260px;
+
 /*     background:red; */
   }
   .box{
-    height:90px;
-    width:90px;
+    height:80px;
+    width:80px;
   }
   h4{
-    font-size:17px;
+    font-size:14px;
     letter-spacing:1px;
   }
 }
